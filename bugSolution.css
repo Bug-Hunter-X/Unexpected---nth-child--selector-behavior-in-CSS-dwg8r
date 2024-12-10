@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+/* Instead of relying solely on :nth-child, consider using a class-based approach */
+
+ul li {
+  /* Default styling */
+}
+
+ul li.even {
+  background-color: #f0f0f0;
+}
+
+/* Javascript (or other logic) would then be used to dynamically add or remove the 'even' class based on the index. */
